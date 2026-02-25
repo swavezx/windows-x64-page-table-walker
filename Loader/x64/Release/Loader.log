@@ -1,0 +1,9 @@
+﻿  entry.cpp
+C:\Users\x90\source\repos\X64_Paging\Loader\entry.cpp(28,30): warning C4129: 'P': Nicht erkannte Folge von Escapesequenz.
+  Code wird generiert.
+  Previous IPDB not found, fall back to full compilation.
+  All 14 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Codegenerierung ist abgeschlossen.
+  Loader.vcxproj -> C:\Users\x90\source\repos\X64_Paging\x64\Release\Loader.exe
+  Der Befehl "pwsh.exe" ist entweder falsch geschrieben oder
+  konnte nicht gefunden werden.

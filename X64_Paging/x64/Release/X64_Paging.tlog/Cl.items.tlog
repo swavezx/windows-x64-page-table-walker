@@ -1,0 +1,10 @@
+C:\Users\x90\source\repos\X64_Paging\X64_Paging\core\ioctl\Handler.cpp;C:\Users\x90\source\repos\X64_Paging\X64_Paging\x64\Release\Handler.obj
+C:\Users\x90\source\repos\X64_Paging\X64_Paging\core\ioctl\Init.cpp;C:\Users\x90\source\repos\X64_Paging\X64_Paging\x64\Release\Init.obj
+C:\Users\x90\source\repos\X64_Paging\X64_Paging\core\memory\Pattern_Scanner\scanner.cpp;C:\Users\x90\source\repos\X64_Paging\X64_Paging\x64\Release\scanner.obj
+C:\Users\x90\source\repos\X64_Paging\X64_Paging\core\memory\PT\PT-Walk.cpp;C:\Users\x90\source\repos\X64_Paging\X64_Paging\x64\Release\PT-Walk.obj
+C:\Users\x90\source\repos\X64_Paging\X64_Paging\core\memory\RW.cpp;C:\Users\x90\source\repos\X64_Paging\X64_Paging\x64\Release\RW.obj
+C:\Users\x90\source\repos\X64_Paging\X64_Paging\core\process\process.cpp;C:\Users\x90\source\repos\X64_Paging\X64_Paging\x64\Release\process.obj
+C:\Users\x90\source\repos\X64_Paging\X64_Paging\core\Utils\Utils.cpp;C:\Users\x90\source\repos\X64_Paging\X64_Paging\x64\Release\Utils.obj
+C:\Users\x90\source\repos\X64_Paging\X64_Paging\entry.cpp;C:\Users\x90\source\repos\X64_Paging\X64_Paging\x64\Release\entry.obj
+C:\Users\x90\source\repos\X64_Paging\X64_Paging\core\memory\PT\ReadEntry.cpp;C:\Users\x90\source\repos\X64_Paging\X64_Paging\x64\Release\ReadEntry.obj
+C:\Users\x90\source\repos\X64_Paging\X64_Paging\protection\PE_Header.cpp;C:\Users\x90\source\repos\X64_Paging\X64_Paging\x64\Release\PE_Header.obj

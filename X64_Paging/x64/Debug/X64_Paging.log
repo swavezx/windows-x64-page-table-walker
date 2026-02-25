@@ -1,0 +1,46 @@
+﻿  Building 'X64_Paging' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping x64\Debug\X64_Paging.inf
+  Stamping [Version] section with DriverVer=02/06/2026,21.18.20.864
+  Handler.cpp
+C:\Users\x90\source\repos\X64_Paging\X64_Paging\core\includes\sdk.h(68,16): warning C4091: "typedef ": Ignoriert auf der linken Seite von "_KERNEL_DATA", wenn keine Variable deklariert wurde
+  (Quelldatei „core/ioctl/Handler.cpp“ wird kompiliert)
+  
+C:\Users\x90\source\repos\X64_Paging\X64_Paging\core\ioctl\Handler.cpp(18,8): warning C4189: "controlCode": Lokale Variable ist initialisiert aber nicht referenziert
+  Init.cpp
+C:\Users\x90\source\repos\X64_Paging\X64_Paging\core\includes\sdk.h(68,16): warning C4091: "typedef ": Ignoriert auf der linken Seite von "_KERNEL_DATA", wenn keine Variable deklariert wurde
+  (Quelldatei „core/ioctl/Init.cpp“ wird kompiliert)
+  
+  scanner.cpp
+C:\Users\x90\source\repos\X64_Paging\X64_Paging\core\includes\sdk.h(68,16): warning C4091: "typedef ": Ignoriert auf der linken Seite von "_KERNEL_DATA", wenn keine Variable deklariert wurde
+  (Quelldatei „core/memory/Pattern_Scanner/scanner.cpp“ wird kompiliert)
+  
+  PT-Walk.cpp
+C:\Users\x90\source\repos\X64_Paging\X64_Paging\core\includes\sdk.h(68,16): warning C4091: "typedef ": Ignoriert auf der linken Seite von "_KERNEL_DATA", wenn keine Variable deklariert wurde
+  (Quelldatei „core/memory/PT/PT-Walk.cpp“ wird kompiliert)
+  
+  RW.cpp
+C:\Users\x90\source\repos\X64_Paging\X64_Paging\core\includes\sdk.h(68,16): warning C4091: "typedef ": Ignoriert auf der linken Seite von "_KERNEL_DATA", wenn keine Variable deklariert wurde
+  (Quelldatei „core/memory/RW.cpp“ wird kompiliert)
+  
+  process.cpp
+C:\Users\x90\source\repos\X64_Paging\X64_Paging\core\includes\sdk.h(68,16): warning C4091: "typedef ": Ignoriert auf der linken Seite von "_KERNEL_DATA", wenn keine Variable deklariert wurde
+  (Quelldatei „core/process/process.cpp“ wird kompiliert)
+  
+C:\Users\x90\source\repos\X64_Paging\X64_Paging\core\process\process.cpp(61,20): warning C4996: 'ExAllocatePoolWithTag': ExAllocatePoolWithTag is deprecated, use ExAllocatePool2.
+  Utils.cpp
+C:\Users\x90\source\repos\X64_Paging\X64_Paging\core\includes\sdk.h(68,16): warning C4091: "typedef ": Ignoriert auf der linken Seite von "_KERNEL_DATA", wenn keine Variable deklariert wurde
+  (Quelldatei „core/Utils/Utils.cpp“ wird kompiliert)
+  
+  entry.cpp
+C:\Users\x90\source\repos\X64_Paging\X64_Paging\core\includes\sdk.h(68,16): warning C4091: "typedef ": Ignoriert auf der linken Seite von "_KERNEL_DATA", wenn keine Variable deklariert wurde
+  (Quelldatei „entry.cpp“ wird kompiliert)
+  
+  ReadEntry.cpp
+C:\Users\x90\source\repos\X64_Paging\X64_Paging\core\includes\sdk.h(68,16): warning C4091: "typedef ": Ignoriert auf der linken Seite von "_KERNEL_DATA", wenn keine Variable deklariert wurde
+  (Quelldatei „core/memory/PT/ReadEntry.cpp“ wird kompiliert)
+  
+  Code wird generiert...
+  X64_Paging.vcxproj -> C:\Users\x90\source\repos\X64_Paging\x64\Debug\X64_Paging.sys
+  Driver is 'Universal'.
+  Der Befehl "pwsh.exe" ist entweder falsch geschrieben oder
+  konnte nicht gefunden werden.

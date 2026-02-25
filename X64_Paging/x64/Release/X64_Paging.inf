@@ -1,0 +1,62 @@
+;
+; X64_Paging.inf
+;
+
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = System ; TODO: specify appropriate Class
+ClassGuid   = {4d36e97d-e325-11ce-bfc1-08002be10318} ; TODO: specify appropriate ClassGuid
+Provider    = %ManufacturerName%
+CatalogFile = X64_Paging.cat
+DriverVer = 02/07/2026,16.23.29.830
+PnpLockdown = 1
+
+[DestinationDirs]
+DefaultDestDir = 13
+
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[SourceDisksFiles]
+X64_Paging.sys = 1,,
+
+;*****************************************
+; Install Section
+;*****************************************
+
+[Manufacturer]
+%ManufacturerName% = Standard,NTamd64.10.0...16299 ; %13% support introduced in build 16299
+
+[Standard.NTamd64.10.0...16299]
+%X64_Paging.DeviceDesc% = X64_Paging_Device, Root\X64_Paging ; TODO: edit hw-id
+
+[X64_Paging_Device.NT]
+CopyFiles = File_Copy
+
+[File_Copy]
+X64_Paging.sys
+
+;-------------- Service installation
+[X64_Paging_Device.NT.Services]
+AddService = X64_Paging,%SPSVCINST_ASSOCSERVICE%, X64_Paging_Service_Inst
+
+; -------------- X64_Paging driver install sections
+[X64_Paging_Service_Inst]
+DisplayName    = %X64_Paging.SVCDESC%
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 3               ; SERVICE_DEMAND_START
+ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %13%\X64_Paging.sys
+
+[X64_Paging_Device.NT.Wdf]
+KmdfService = X64_Paging, X64_Paging_wdfsect
+
+[X64_Paging_wdfsect]
+KmdfLibraryVersion = 1.15
+
+[Strings]
+SPSVCINST_ASSOCSERVICE = 0x00000002
+ManufacturerName = "<Your manufacturer name>" ;TODO: Replace with your manufacturer name
+DiskName = "X64_Paging Installation Disk"
+X64_Paging.DeviceDesc = "X64_Paging Device"
+X64_Paging.SVCDESC = "X64_Paging Service"
